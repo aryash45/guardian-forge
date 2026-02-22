@@ -1,23 +1,108 @@
 # Dependencies
-node_modules
+node_modules/
 .pnp
 .pnp.js
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
 # Testing
 coverage
+.nyc_output
 
 # Production
-build
-dist
-out
+build/
+dist/
+out/
+.next/
+*.tsbuildinfo
 
-# Misc
-.DS_Store
+# Environment variables (NEVER commit these!)
 .env
 .env.local
+.env.*.local
+.env.example
 .env.development.local
 .env.test.local
 .env.production.local
+.env.*.example
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# AI Agent folders
+.agent/
+.agents/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Private keys and secrets
+private_key*
+secret*
+*.pem
+*.key
+
+# Build outputs
+hardhat/
+artifacts/
+cache/
+typechain-types/
+web3-artifacts/
+
+# Development
+.turbo
+tmp/
+temp/
+
+# Node / NPM
+npm-check-updates
+
+# IDE backup files
+*.swp
+*.swo
+*~
+#*#
+.#*
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+.DS_Store~
+
 
 # Logs
 npm-debug.log*
