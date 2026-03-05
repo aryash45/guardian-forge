@@ -1,4 +1,4 @@
-# DeFi Sentinel
+# Liquidex
 
 **Real-time DeFi position monitoring with AI-powered risk analysis.**
 
